@@ -18,6 +18,8 @@ public class Basics extends base{
 		driver.findElementById("android:id/edit").sendKeys("HelloWorld");
 //		driver.findElementByXPath("//android.widget.Button[@text='OK']").click();
 		driver.findElementsByClassName("android.widget.Button").get(1).click();
+		
+		//Example
 	}
 
 }
